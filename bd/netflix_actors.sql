@@ -23,7 +23,7 @@ SET @@SESSION.SQL_LOG_BIN= 0;
 -- GTID state at the beginning of the backup 
 --
 
-SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ 'a3369444-d67a-11f0-9699-2d13d9099f04:1-15';
+
 
 --
 -- Table structure for table `actors`
