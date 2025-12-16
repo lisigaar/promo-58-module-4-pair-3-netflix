@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `netflix` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `netflix`;
 -- MySQL dump 10.13  Distrib 8.0.44, for macos15 (x86_64)
 --
 -- Host: localhost    Database: netflix
@@ -24,7 +22,7 @@ SET @@SESSION.SQL_LOG_BIN= 0;
 --
 
 SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ 'a3369444-d67a-11f0-9699-2d13d9099f04:1-15,
-ca1d265c-d66d-11f0-9b5a-383d8d09878c:1-21';
+ca1d265c-d66d-11f0-9b5a-383d8d09878c:1-22';
 
 --
 -- Table structure for table `actors`
@@ -119,4 +117,4 @@ SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-12 11:25:53
+-- Dump completed on 2025-12-15 11:04:33
